@@ -1,21 +1,12 @@
 # Eastern-University-refurbished-website-using-Bootstrap
 
-Introduction
+#Introduction
 
-This main purpose of this project is to develop a website using only front-end module. The website has been designed in responsive manner using “modern designing standard” of web designing. Lots of research have been done to extract the modern designing ideology from Front-End Web Development. The website has been named ‘Eastern University’ as a means to replace the current existing website, even though this project is just a demo. For brainstorming of ideas, University websites like the following have been used for inspiration:
+This main purpose of this project is to develop a website using only front-end module. The website has been designed in responsive manner using “modern designing standard” of web designing. Lots of research have been done to extract the modern designing ideology from Front-End Web Development. The website has been named ‘Eastern University’ as a means to replace the current existing website, even though this project is just a demo.
 
- 
-Table 1: Top Ten University Website
- 
-Description
 
-Target audience for the website: 
-	The university site can be aimed at all ages and genders with a variety of students of different backgrounds. The target audience for the website is largely aimed at the teenagers 13-19 of all genders as they are the target audience so that the design becomes more attractive to an adult than a young person. Before a student applies for an undergraduate or graduate, their main objectives are aimed at the courses and the programs that an institute offers, then he or she looks for the tuition and fees for a particular program as education financing is one of the most important factors in a student life. Finally, a student looks for any Scholarship or Waiver that can be achieved through any means that is offered by that education facility.  So, there 3 objectives are emphasized in the website homepage like the following:
+#Materials and plugins used:
 
- 
-Figure 1: Emphasized Objectives
-
-Materials and plugins used:
 •	HTML 
 •	CSS
 •	Bootstrap 4 Framework
@@ -26,7 +17,7 @@ Materials and plugins used:
 •	VSCode as IDE
 •	Udemy - Bootstrap 4 From Scratch With 5 Projects as Guidelines
 
-Webpage structure and features:
+#Webpage structure and features:
 
 I.	Homepage – index.html
 1.	Navigation bar 
@@ -65,7 +56,7 @@ IV.	Tuition Fees – tuition.html
 4.	Table for Graduate Program
 
 
-References
+#References
 
 1.	Images are from https://www.pexels.com/
 2.	Eastern University official website: http://www.easternuni.edu.bd/
