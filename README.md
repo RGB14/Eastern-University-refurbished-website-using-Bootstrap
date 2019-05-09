@@ -5,6 +5,13 @@
 This main purpose of this project is to develop a website using only front-end module. The website has been designed in responsive manner using “modern designing standard” of web designing. Lots of research have been done to extract the modern designing ideology from Front-End Web Development. The website has been named ‘Eastern University’ as a means to replace the current existing website, even though this project is just a demo.
 
 
+#Project Demo:
+
+https://rgb14.github.io/Eastern-University-refurbished-website-using-Bootstrap/
+
+Note: JavaScript doesn't work in GitHub Pages
+For better view, watch this video: https://bit.ly/2NlLhh1
+
 #Materials and plugins used:
 
 •	HTML 
