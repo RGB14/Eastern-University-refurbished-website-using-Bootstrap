@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Developed by-->
+<!--sdpto 143400005-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Eastern University</title>
+</head>
+
+<body>
+    <!--Navigation bar-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <img src="img/EU.png" width="50" height="50" alt="">
+                <h3 class="d-inline align-middle">Eastern University</h3>
+            </a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Admission</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Faculty</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Departments</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="index.html" class="nav-link btn btn-primary btn-block" data-toggle="modal" data-target="#loginModal">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!--page header-->
+    <header id="tuition-page-header">
+        <div class="container">
+            <div class="row">
+            </div>
+        </div>
+    </header>
+
+    <!--heading jumbo-->
+    <section id="tuitionJumbo">
+        <div id="jumboFunc" class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Tuition and Fees</h1>
+                <p class="lead p-2">
+                    <a class="btn btn-success btn-sm" href="#undergradTuition" role="button">Undergraduate</a>
+                    <a class="btn btn-info btn-sm" href="#gradTuition" role="button">Graduate</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!--Undergraduate fees-->
+    <section id="undergradTuition">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Undergraduate programmes</h1>
+                    <hr>
+                    <!--TABLE-->
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Name of Program</th>
+                                <th>Total Credit</th>
+                                <th>Tuition Per Credit</th>
+                                <th>Total Tuition Fee</th>
+                                <th>Admission Fee</th>
+                                <th>Semester Register Fee</th>
+                                <th>Security Money (Refundable)</th>
+                                <th class="font-weight-bold">Total Cost</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>BBA</td>
+                                <td>132</td>
+                                <td>3,402</td>
+                                <td>4,49,064</td>
+                                <td>10,000</td>
+                                <td>6,000 X 12 = 72,000</td>
+                                <td>2,000</td>
+                                <td class="font-weight-bold">5,33,064</td>
+                            </tr>
+                            <tr>
+                                <td>LL.B. (Hons.)</td>
+                                <td>130</td>
+                                <td>3,600</td>
+                                <td>4,68,000</td>
+                                <td>10,000</td>
+                                <td>6,000 X 12 = 72,000</td>
+                                <td>2,000</td>
+                                <td class="font-weight-bold">5,52,000</td>
+                            </tr>
+                            <tr>
+                                <td>B.A. in English</td>
+                                <td>121</td>
+                                <td>2,130</td>
+                                <td>2,57,730</td>
+                                <td>10,000</td>
+                                <td>6,000 X 12 = 72,000</td>
+                                <td>2,000</td>
+                                <td class="font-weight-bold">3,41,730</td>
+                            </tr>
+                            <tr>
+                                <td>B.Sc. in CSE</td>
+                                <td>150</td>
+                                <td>2,430</td>
+                                <td>3,64,500</td>
+                                <td>10,000</td>
+                                <td>6,000 X 12 = 72,000</td>
+                                <td>2,000</td>
+                                <td class="font-weight-bold">4,48,500</td>
+                            </tr>
+                            <tr>
+                                <td>B.Sc. in CSE (Evening)</td>
+                                <td>137</td>
+                                <td>1,836</td>
+                                <td>2,51,532</td>
+                                <td>10,000</td>
+                                <td>6,000 X 12 = 72,000</td>
+                                <td>2,000</td>
+                                <td class="font-weight-bold">3,23,532</td>
+                            </tr>
+                            <tr>
+                                <td>B.Sc. in EEE</td>
+                                <td>149</td>
+                                <td>2,858</td>
+                                <td>4,25,768</td>
+                                <td>10,000</td>
+                                <td>6,000 X 12 = 72,000</td>
+                                <td>2,000</td>
+                                <td class="font-weight-bold">5,09,768</td>
+                            </tr>
+                            <tr>
+                                <td>B.Sc. in EEE For Diploma Holders</td>
+                                <td>149</td>
+                                <td>2,300</td>
+                                <td>3,42,700</td>
+                                <td>10,000</td>
+                                <td>6,000 X 12 = 72,000</td>
+                                <td>2,000</td>
+                                <td class="font-weight-bold">4,26,700</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                    <div class="text-left p-5 border-bottom">
+                        <p>
+                            <ul>
+                                <li>
+                                    Students can pay Semester fee (full semester payment) either in one installment or in by three installments in a semester.
+                                </li>
+                                <li>
+                                    Students have to pay semester registration fee &other charges during registration time.
+                                </li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="text-left p-2 border-bottom">
+                        <p>
+                            <ul>
+                                The following incentives are offered if payment is made in advance at a time:
+                                <li>
+                                    a) 2% discount for advance payment of semester tuition fees within 2 weeks of the semester.
+                                </li>
+                                <li>
+                                    b) 5% discount for advance payment of 50% tuition fees of the program at the time of admission.
+                                </li>
+                                <li>
+                                    c) 10% discount for advance payment of 100% tuition fees of the program at the time of admission
+                                </li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Graduate fees-->
+    <section id="gradTuition">
+        <div class="container p-5">
+            <div class="row">
+                <div class="col">
+                    <h1>Graduate programmes</h1>
+                    <hr>
+                    <!--TABLE-->
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Name of Program</th>
+                                <th>Total Credit</th>
+                                <th>Tuition Per Credit</th>
+                                <th>Total Tuition Fee</th>
+                                <th>Admission Fee</th>
+                                <th>Semester Register Fee</th>
+                                <th>Security Money (Refundable)</th>
+                                <th class="font-weight-bold">Total Cost</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>MBA (24 month)</td>
+                                <td>66</td>
+                                <td>2,997</td>
+                                <td>1,97,802</td>
+                                <td>10,000</td>
+                                <td>6,000x6 = 36,000</td>
+                                <td>2,000</td>
+                                <td class="font-weight-bold">2,45,802</td>
+                            </tr>
+                            <tr>
+                                <td>RMBA (for BBA background Students)**</td>
+                                <td>39</td>
+                                <td>2,997</td>
+                                <td>1,16,883</td>
+                                <td>10,000</td>
+                                <td>6,000x4 = 24,000</td>
+                                <td>2,000</td>
+                                <td class="font-weight-bold">1,52,883</td>
+                            </tr>
+                            <tr>
+                                <td>MBA (Executive)</td>
+                                <td>48</td>
+                                <td>2,997 </td>
+                                <td>1,43,856</td>
+                                <td>10,000</td>
+                                <td>6,000x5 = 30,000</td>
+                                <td>2,000</td>
+                                <td class="font-weight-bold">1,85,856</td>
+                            </tr>
+                            <tr>
+                                <td>LL.M.</td>
+                                <td>36</td>
+                                <td>1,809</td>
+                                <td>65,124</td>
+                                <td>10,000</td>
+                                <td>6,000x3 = 18,000</td>
+                                <td>2,000</td>
+                                <td class="font-weight-bold">95,124</td>
+                            </tr>
+                            <tr>
+                                <td>M.A. in English (ELL)</td>
+                                <td>41</td>
+                                <td>1,890</td>
+                                <td>77,490</td>
+                                <td>10,000</td>
+                                <td>6,000x3 = 18,000</td>
+                                <td>2,000</td>
+                                <td class="font-weight-bold">1,07,490</td>
+                            </tr>
+                            <tr>
+                                <td>M. A. in ELT (1 year 4 months)</td>
+                                <td>42</td>
+                                <td>1,710</td>
+                                <td>71,820</td>
+                                <td>10,000</td>
+                                <td>6,000x4 = 24,000</td>
+                                <td>2,000</td>
+                                <td class="font-weight-bold">1,07,820</td>
+                            </tr>
+                            <tr>
+                                <td>M. A. in ELT (2 year)</td>
+                                <td>66</td>
+                                <td>1,560</td>
+                                <td>1,02,960</td>
+                                <td>10,000</td>
+                                <td>6,000x6 = 36000</td>
+                                <td>2,000</td>
+                                <td class="font-weight-bold">1,50,960</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                    <div class="text-left p-5 border-bottom">
+                        <p>
+                            <ul>
+                                <li>
+                                    Students can pay Semester fee (full semester payment) either in one installment or in by three installments in a semester.
+                                </li>
+                                <li>
+                                    Students have to pay semester registration fee &other charges during registration time.
+                                </li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="text-left p-2 border-bottom">
+                        <p>
+                            <ul>
+                                The following incentives are offered if payment is made in advance at a time:
+                                <li>
+                                    a) 2% discount for advance payment of semester tuition fees within 2 weeks of the semester.
+                                </li>
+                                <li>
+                                    b) 5% discount for advance payment of 50% tuition fees of the program at the time of admission.
+                                </li>
+                                <li>
+                                    c) 10% discount for advance payment of 100% tuition fees of the program at the time of admission
+                                </li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Login Modal-->
+    <div class="modal fade" id="loginModal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title">Login</h5>
+                    <button class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="ID">ID</label>
+                            <input type="text" class="form-control" placeholder="Enter ID Here">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" placeholder="Enter Password Here">
+                        </div>
+                        <div class="form-group">
+                            <label for="category">Category</label>
+                            <select name="" id="" class="form-control">
+                                <option value="">Student</option>
+                                <option value="">Faculty</option>
+                                <option value="">Staff</option>
+                            </select>
+
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-dismiss="modal">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+
+    <script>
+        // Get the current year for the copyright
+        $('#year').text(new Date().getFullYear());
+
+
+
+    </script>
+</body>
+
+</html>

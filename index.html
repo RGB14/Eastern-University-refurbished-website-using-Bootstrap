@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Developed by-->
+<!--sdpto 143400005-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!--Stylesheets-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
+
+
+  <title>Eastern University</title>
+</head>
+
+<body>
+  <!--Navigation bar-->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <img src="img/EU.png" width="50" height="50" alt="">
+        <h3 class="d-inline align-middle">Eastern University</h3>
+      </a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about/about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="topu web/admission.html" class="nav-link">Admission</a>
+          </li>
+          <li class="nav-item">
+            <div class="dropdown">
+              <button class="btn btn-dark dropdown-toggle text-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                FACULTY
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="/sohan web/faclty.html">E & T</a>
+                <a class="dropdown-item" href="/sohan web/bba-faculty.html">BBA</a>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Departments</a>
+          </li>
+          <li class="nav-item active">
+            <a href="index.html" class="nav-link btn btn-primary btn-block" data-toggle="modal" data-target="#loginModal">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+  <section id="showcase">
+    <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-image-1 active">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-right mb-5">
+              <h1 id="headingfont1" class="display-5">EASTERN UNIVERSITY STARTS JOURNEY IN PERMANENT CAMPUS </h1>
+              <p id="descripfont1" class="lead">The much awaited inauguration of the classes at the Permanent Campus of Eastern
+                University came to reality as...
+              </p>
+              <a href="pcampus.html" class="btn btn-danger btn-lg">Find More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-image-2">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block  mb-5">
+              <h1 id="headingfont2" class="display-5">Admission for Fall 2018 semester is open</h1>
+              <p id="descripfont2" class="lead">Eastern University admits students every semester. Admission schedule of
+                the semester showing deadlines for admission form submission, admission test, admission fee payment, registration,
+                withdrawal.... </p>
+              <a href="http://www.easternuni.edu.bd/Academics/Application_for_Admission_EU.pdf" class="btn btn-primary btn-lg">Download
+                Application Form</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-image-3">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-right mb-5">
+              <h1 id="headingfont3" class="display-3">Online Library</h1>
+              <p id="descripfont3" class="lead">Eastern University Digital Library is now registered with OpenDOAR and ROAR</p>
+              <a href="http://library.easternuni.edu.bd/main/" class="btn btn-success btn-lg">Find Out</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-image-4">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-right mb-5">
+              <h1 id="headingfont4" class="display-4">See What We Do</h1>
+              <p id="descripfont4" class="lead">Students of EU made a demo video</p>
+              <a href="#" class="video" data-video="https://www.youtube.com/embed/jisykyGMsLg" data-toggle="modal" data-target="#videoModal"
+                class="btn btn-success btn-lg">
+                <i class="fas fa-play fa-3x"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+
+      <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+
+  <!--Search and goto-->
+  <section id="search" class="text-center p-5 bg-dark text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 border-right">
+          <h1>Search</h1>
+          <form class="form-inline justify-content-center">
+            <input type="text" class="form-control mb-2 mr-2">
+            <button class="btn btn-primary mb-2">Submit</button>
+          </form>
+        </div>
+
+        <div id="gotoPart" class="col-md-6 border-left">
+          <h3 class="text-center">Go To</h3>
+          <a href="#home-heading" class="text-info p-2  ">About EU</a>
+          <a href="#event-header" class="text-info p-2 border-bottom">Events</a>
+          <a href="#photo-header" class="text-info p-2 ">Photo Gallery</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!--Home icon section-->
+  <section id="home-icons" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4 text-center">
+          <a href="degree.html">
+            <i class="fas fa-graduation-cap fa-3x mb-2"></i>
+            <h3>Degree</h3>
+          </a>
+          <p>Choose your path to success, from a certificate to a masters programme.</p>
+        </div>
+
+        <div class="col-md-4 mb-4 text-center">
+          <a href="tuition.html">
+            <i class="fas fa-money-bill-wave-alt fa-3x mb-2"></i>
+            <h3>Tuition and Fees</h3>
+          </a>
+          <p>View current states of tuition fees offered to each student.</p>
+        </div>
+
+        <div class="col-md-4 mb-4 text-center">
+          <a href="http://www.easternuni.edu.bd/Admission_FAidSch.aspx">
+            <i class="fas fa-hands-helping fa-3x mb-2"></i>
+            <h3>Scholarship and Aid</h3>
+          </a>
+          <p>Student financial aid is available. Click to learn more</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--Notice board slider-->
+  <section id="noticebord" class="p-4 bg-dark text-white">
+    <div class="container">
+      <h2 class="text-center">Notice Board</h2>
+      <div class="row text-center">
+        <div class="col">
+          <div class="slider">
+            <div>
+              <blockquote class="blockquote">
+                <p class="mb-0">
+                  <a href="http://www.easternuni.edu.bd/EU_NoticeDtl.aspx?token=w1iJwvl3HGuxY4JQBvSdDQ==">Urgent Notice of
+                    Conflict Final Examination LL.B. (Hons.) Program, Summer - 2018</a>
+                </p>
+                <footer class="blockquote-footer">Date:
+                  <cite title="company 1">15/08/2018</cite>
+                </footer>
+              </blockquote>
+            </div>
+
+            <div>
+              <blockquote class="blockquote">
+                <p class="mb-0">
+                  <a href="http://www.easternuni.edu.bd/EU_NoticeDtl.aspx?token=nzt3R4VHl9nRnG7XuHpmlg==">Schedule of Final
+                    Examination (Revised)</a>
+                </p>
+                <footer class="blockquote-footer">Date:
+                  <cite title="company 2">15/08/2018</cite>
+                </footer>
+              </blockquote>
+            </div>
+
+            <div>
+              <blockquote class="blockquote">
+                <p class="mb-0">
+                  <a href="http://www.easternuni.edu.bd/EU_NoticeDtl.aspx?token=jtN3vqjTlX438LOc12iymg==">Holiday Notice
+                    on Eid-ul-Adha</a>
+                </p>
+                <footer class="blockquote-footer">Date:
+                  <cite title="company 3">06/08/2018</cite>
+                </footer>
+              </blockquote>
+            </div>
+
+            <div>
+              <blockquote class="blockquote">
+                <p class="mb-0">
+                  <a href="http://www.easternuni.edu.bd/EU_NoticeDtl.aspx?token=rCrcxN+Fv/0tv1Yqi5+HJA==">Schedule for Final
+                    Examination LL.M. Program, Summer - 2018
+                  </a>
+                </p>
+                <footer class="blockquote-footer">Date:
+                  <cite title="company 3">12/08/2018</cite>
+                </footer>
+              </blockquote>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--home heading section-->
+
+  <section id="home-heading" class="p-5">
+    <div class="dark-overlay">
+      <div class="row">
+        <div class="col">
+          <div class="container pt-5">
+            <h1 class="text-right">ABOUT EU</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Info section-->
+  <section id="info" class="py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 align-self-center">
+          <!--Accordion-->
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header">
+                <h5 class="mb-0">
+                  <div href="#collapse1" data-toggle="collapse" data-parent="#accordion">
+                    <i class="fas fa-arrow-circle-down"></i> Vision
+                  </div>
+                </h5>
+              </div>
+              <div id="collapse1" class="collapse show">
+                <div class="card-body">
+                  Committed to an ideal of “quality higher education at an affordable cost”, a group of educational philanthropists comprising
+                  academics, industrialists, engineers and retired civil servants established Eastern University in 2003.
+                  The vision of Eastern University is to be a globally recognized university in its chosen fields of higher
+                  education and research in terms of quality. The mission of the University is to equip the students with
+                  knowledge and skills essential for leadership in private and public sector in the increasingly competitive
+                  and globalized environment. Its goal is to be one of the top five private universities by 2020
+                  <br>
+                  <br> Eastern University is widely known for its quality education, superior faculty composition, excellent
+                  academic environment, sincere care for students, extensive co and extra- curricular activities, successful
+                  internship and job placement, modern digital library, good governance and administration and convenient
+                  location of the campus.
+                  <br>
+                  <br> More than 6000 students have graduated from the university by 2014 and about 1500 students are now
+                  graduating annually.
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="card">
+              <div class="card-header">
+                <h5 class="mb-0">
+                  <div href="#collapse2" data-toggle="collapse" data-parent="#accordion">
+                    <i class="fas fa-arrow-circle-down"></i> Governance and Administration
+                  </div>
+                </h5>
+              </div>
+              <div id="collapse2" class="collapse show">
+                <div class="card-body">
+                  His Excellency the President of Bangladesh is the Chancellor of Eastern University as per the Private University Act of 2010.
+                  The governance of the University is vested with a 21 member Board of Trustees (BOT)comprising 20 members
+                  drawn from the Eastern University Foundation and the Vice Chancellor as an ex-officio member. The Board
+                  is chaired by the Chairman of the Board elected by the Foundation. The board is assisted by the Syndicate,
+                  Academic Council, Finance Committee, Faculty Selection Committee, Staff Selection Committee and Institutional
+                  Quality Assurance Committee. The administration consists of the Vice Chancellor, Pro-Vice Chancellor, Treasurer,
+                  Registrar and Controller of Examinations.
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="card">
+              <div class="card-header">
+                <h5 class="mb-0">
+                  <div href="#collapse3" data-toggle="collapse" data-parent="#accordion">
+                    <i class="fas fa-arrow-circle-down"></i> Curricula, Students and Faculty
+                  </div>
+                </h5>
+              </div>
+              <div id="collapse3" class="collapse show">
+                <div class="card-body">
+                  The meticulously designed curricula of the academic programs combine and ye tbalance the broad- based and the in-depth learning,
+                  and emphasize “knowing, doing and being” of the students. The Curricula are of international standard and
+                  are upgraded and updated regularly to make it relevant to the advancement of the discipline and the future
+                  job and professional requirements of the students. The teaching-learning methods used are participative,
+                  interactive, experiential, learner-centered and hands-on practice depending upon the nature of the course
+                  being taught.
+                  <br>
+                  <br> The students are carefully selected for admission on the basis of their excellent academic record,
+                  high aptitude and strong motivation to learn. They are transformed into knowledgeable, skilled and globally
+                  oriented human resources by the caring and committed faculty members of the University. They are groomed
+                  to be leaders, value-driven and socially responsive citizens through a variety of co-curricular and extra-
+                  curricular programs.The university has at present international students from SAARC countries and Africa.
+                  The university has plans to attract students from other countries also.
+                  <br>
+                  <br> Eastern University hires top-of-the class, talented graduates of highly reputed universities from
+                  home and abroad as junior faculty, experienced teachers and researchers as senior faculty andwell known
+                  academics aspart time faculty. In addition, the University appoints accomplished professionals and practitioners
+                  as adjunct faculty and invites university teachers from abroad as Visiting Faculty. The faculty members
+                  are chosen on the basis of their scholarly achievement, knack for research and commitment in teaching.
+                  The Faculty Development Program of the University trains junior faculty in pedagogy, research methods and
+                  in specific disciplines they teach.
+                </div>
+              </div>
+            </div>
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--events section-->
+  <!--event header-->
+  <section id="event-header" class="text-dark p-5">
+    <div class="dark-overlay">
+      <div class="row">
+        <div class="col">
+          <div class="container pt-5">
+            <h1 class="text-white">Events</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--event body-->
+  <section id="events" class="py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card-columns">
+
+            <div class="card bg-primary text-white">
+              <img src="img/event1.jpg" alt="" class="img-fluid card-img-top">
+              <div class="card-body">
+                <h5 class="card-title"> Seminar on “Development of a Geospatial Intelligent System for Flood and Deforestation
+                  Monitoring System Over Rural Areas of Bangladesh” at Eastern University </h5>
+                <small class="text-dark">12 July 2018 </small>
+                <hr>
+                <p class="card-text text-truncate">Md Mafijul Islam Bhuiyan and Dr. S.N.M. Azizul Hoque were the joint speaker
+                  of the seminar on Thursday, July
+                </p>
+                <button class="btn btn-success btn-lg" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Md Mafijul Islam Bhuiyan and Dr. S.N.M. Azizul Hoque were the joint speaker of the seminar on Thursday, July 12, 2018 organised and hosted at Eastern University, Bangladesh. Md Mafijul Islam Bhuiyan is the CEO of mi2labs worked as a research analyst in MDA satellite corporation for one year where he processed and analyzed satellite images collected from RADARSAT-2 satellite. Dr. S.N.M. Azizul Hoque is Assistant Professor of Independent University, Bangladesh (IUB). Dr. Hoque completed the PhD in Space Physics from the University of Alberta, Canada. Mr. Mafijul Islam Bhuiyan is going to defend his PhD in September from the same University. In the talk, Mr. Bhuiyan shared his works and experiences during his stay at MDA satellite corporation located at Richmond in British Columbia, Canada. The both speaker described the recently completed project funded byICT innovation fund, ICT Division, Bangladesh Government. Mr. Bhuiyan described how they monitor and predict flood in Sylhet region during the year 2017. Dr. Hoque described the deforestation due to 7 lak Rohingya refuges in the last one year located in Chittagong Division. The work was recently submitted to Ministry of Environment, Forests and Climate Change. Both speaker described the potential future projects using the satellite imageries. Mr. Bhuiyan also described about mi2labs, research and development company for Artificial Intelligence (AI), Computer Vision, Image processing, and Internet of things (IOT) located both in Canada and Bangladesh. Both the speakers are the writer of the textbook of Higher Secondary level 'Information and Communication Technology' book where Vice Chancellor of Eastern University, Professor Dr. Aminul Haque is the editor of the book."
+                  data-trigger="focus">See More
+                </button>
+              </div>
+            </div>
+
+            <div class="card bg-dark">
+              <img src="img/event2.jpg" alt="" class="img-fluid card-img-top">
+              <div class="card-body">
+                <h5 class="card-title text-white"> Largest Moot Court Competition in Bangladesh, jointly organized by Eastern
+                  University and SED Foundation
+                </h5>
+                <small class="text-white">15 July 2018 </small>
+                <hr>
+                <p class="card-text text-truncate text-white">An International Environmental Law Moot Court Competition 2018
+                  was held in
+                </p>
+                <button class="btn btn-warning btn-lg" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="An International Environmental Law Moot Court Competition 2018 was held in Eastern University from 12th to 14th July 2018. The competition was jointly organized by Eastern University and Strategy for Environmental Development Foundation in collaboration with Eastern University Moot Court Society. Twenty Two (22) public and private universities from various districts of Bangladesh participated in the competition making this event the largest national level moot court competition. University of Chittagong and Jahangirnagar University were the finalists where University of Chittagong emerged as the champion. Mr. Justice Syed Refaat Ahmed, Honorable Judge, High Court Division, Supreme Court of Bangladesh, Mr. Justice Zubayer Rahman Chowdhury, Honorable Judge, High Court Division, Supreme Court of Bangladesh and Syeda Rizwana Hasan, Chief Executive, BELA were the adjudicators for the final round. Tasmiah Juthi from East West University, Morsalin Hider from University of Asia Pacific and the Jahangirnagar University mooting team received the ‘Best Researcher’, ‘Best Mooter’ and ‘Best Memorial’ awards respectively. Mr. Justice Syed Refaat Ahmed and Mr. Justice Zubayer Rahman Chowdhury were the Chief Guest and Special Guest, respectively, in the closing and prize giving ceremony along with Mohammed Javed Rasin, Founder and President of the SED Foundation, Prof. Dr. Engr. Aminul Hoque, Vice Chancellor of Eastern University as guests of honor. Dr. M. Zahurul Haq, Dean of the Faculty of Law, Eastern University was the chair of the program. ">See
+                  More
+                </button>
+              </div>
+            </div>
+
+            <div class="card bg-success">
+              <img src="img/event3.jpg" alt="" class="img-fluid card-img-top">
+              <div class="card-body">
+                <h5 class="card-title text-white">Eastern University observed National Mourning Day 2018
+                </h5>
+                <small class="text-white">12 August 2018</small>
+                <hr>
+                <p class="card-text text-truncate text-white">An Eastern University (EU) observed the National Mourning Day
+                  2018 marking the 43rd anniversary of assassination of the Father of the Nation,
+                </p>
+                <button class="btn btn-secondary btn-lg" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Eastern University (EU) observed the National Mourning Day 2018 marking the 43rd anniversary of assassination of the Father of the Nation, Bangabandhu Sheikh Mujibur Rahman. A discussion meeting and dua mahfil was organized at the Seminar Hall of Eastern University on 12 August 2018. Engr. Kh. Mesbah Uddin Ahmed, Chairman, Board of Trustees (BOT), EU was present as the Chief Guest. Mr. Md. Azizul Islam, Former Chairman of the BOT was present as the Chief Discussant . The program was chaired by the Vice Chancellor of Eastern University, Prof. Dr. Engr. Aminul Hoque. Speakers highlighted various aspects of Bangabandhu's life and motivated the students to prepare themselves to build the 'Sonar Bangla' as dreamt by Bangabandhu wanted to do. Among others, Dr. Md. Abbas Ali Khan, Treasurer (Acting); Prof. Dr. Md. Mahfuzur Rahman, Dean, Faculty of Engineering and Technology; Mr. Abul Basher Khan, Registrar; Chairpersons; teachers; officials and students participates in the program. Students of different departments recited poem on Bangabandhu. A special prayers (dua) for Bangabandhu, his martyred family members, and for the overall welfare of the nation. 
+                ">See More
+                </button>
+              </div>
+            </div>
+
+            <div class="card bg-primary">
+              <img src="img/event4.jpg" alt="" class="img-fluid card-img-top">
+              <div class="card-body">
+                <h5 class="card-title text-white">Seminar on Investment Analysis in Stock Market of Bangladesh
+                </h5>
+                <small class="text-white"> August 2018</small>
+                <hr>
+                <p class="card-text text-truncate text-white">Faculty of Business Administration has arranged a Seminar on
+                  ‘Investment Analysis in Stock Market of Bangladesh’ on 1st of August, 2018. The Seminar was arranged as
+                  part of the real life application of the Course ‘Investment Analysis and Portfolio management’
+                </p>
+                <button class="btn btn-warning btn-lg" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Faculty of Business Administration has arranged a Seminar on ‘Investment Analysis in Stock Market of Bangladesh’ on 1st of August, 2018. The Seminar was arranged as part of the real life application of the Course ‘Investment Analysis and Portfolio management’ FIN 402 which is the major course of Finance and also with a view to get the students to acquaint with the capital market and also to hear from a successful Corporate Investment Analyst and Portfolio Manager. 
+
+                The resource person of the Seminar was Mr Md Nafeez al Tarik, CFA, FRM, Senior Assistant Vice President & Head of Research & Investment at City Bank Brokerage Ltd. He is an Investment analyst and portfolio manager who has the experience in working as Chief investment officer and Vice President at Asian Tiger Capital (A renown AMC), as Vice president of Alliance Capital Asset management, and also as Assistant Vice President at RBIMCO. He is also the Director of CFA Society, Bangladesh. Mr. Nafeez got his graduation from the Department of Finance, University of Dhaka. 
+                
+                The speaker talked about the current capital market situation and different aspects of how a real life portfolio manager works, what are the qualities and skills one should posses to be a successful and efficient portfolio manager. He also talked about the way an ideal financial analyst should follow and to think on different investment aspects. He also aware the students who will be future portfolio manager to deal with others people money to be very careful and make logical investment decision. He talked about the benefit of starting early, rational and good investment. He also explained why and how people lose money in stock market and also how they make money. Honorable Vice Chancellor Prof. Dr. Engr. Aminul Hoque, Prof. Dr. Md. Abbas Ali Khan, Chairman, FBA, Dr. Md. Ashraf Hossain, Director, IQAC, Professor FBA, and Other respected faculty members of FBA were present in the seminar. The seminar was initiated and arranged by Mr Md Rizvy Ahmed, Assistant Professor, FBA, Eastern University and facilitated by IQAC. ">See
+                  More
+                </button>
+              </div>
+            </div>
+
+            <div class="card bg-warning">
+              <img src="img/event5.jpg" alt="" class="img-fluid card-img-top">
+              <div class="card-body">
+                <h5 class="card-title text-white">Celebrating World Environment Day 2018 by EarthCare Club
+                </h5>
+                <small class="text-white">5 June 2018</small>
+                <hr>
+                <p class="card-text text-truncate text-white">In the name of modernization of our society, we never watch
+                  the pollution we make all around us every day but the effects we carry as our carbon footprints which is
+                </p>
+                <button class="btn btn-success btn-lg" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="In the name of modernization of our society, we never watch the pollution we make all around us every day but the effects we carry as our carbon footprints which is devastating for our world's environment. We can't change it all of a sudden but we can try our best to do conserve our environment for our beautiful Earth. On this World Environment Day, we take an oath of making our environment better from every aspect we can. 
+
+                On 5th June 2018 Eastern University EarthCare Club (EUECC) demonstrated a road show where students from all departments stood together & had conversation with all the passersby in Dhanmondi 05 to spread awareness about conserving our environment. This road show was a successful one because people from all spheres participated wholeheartedly. Many people did not know about the Environment Day, through this program people realized the value of protecting environment.">See
+                  More
+                </button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--photo gallery-->
+  <!--photo header-->
+  <section id="photo-header" class="text-dark p-5">
+    <div class="dark-overlay">
+      <div class="row">
+        <div class="col">
+          <div class="container pt-5">
+            <h1 class="text-white">Photo Gallery</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--photo section-->
+  <section id="gallery" class="py-5">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col-md-4">
+          <a href="img/photo1.jpeg" data-toggle="lightbox" data-gallery="img-gallery" data-height="560" data-width="560">
+            <img src="img/photo1.jpeg" alt="" class="img-fluid">
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <a href="img/photo2.jpeg" data-toggle="lightbox" data-gallery="img-gallery" data-height="560" data-width="560">
+            <img src="img/photo2.jpeg" alt="" class="img-fluid">
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <a href="img/photo3.jpeg" data-toggle="lightbox" data-gallery="img-gallery" data-height="560" data-width="560">
+            <img src="img/photo3.jpeg" alt="" class="img-fluid">
+          </a>
+        </div>
+
+      </div>
+
+      <div class="row mb-4">
+        <div class="col-md-4">
+          <a href="img/photo4.jpeg" data-toggle="lightbox" data-gallery="img-gallery" data-height="560" data-width="560">
+            <img src="img/photo4.jpeg" alt="" class="img-fluid">
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <a href="img/photo5.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="560" data-width="560">
+            <img src="img/photo5.jpg" alt="" class="img-fluid">
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <a href="img/photo6.jpeg" data-toggle="lightbox" data-gallery="img-gallery" data-height="560" data-width="560">
+            <img src="img/photo6.jpeg" alt="" class="img-fluid">
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <!--footer-->
+  <footer id="main-footer" class="text-center p-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <h5>Contact</h5>
+          <p id="footer-text" class="text-left text-justify">House 26, Road 5 Dhanmondi, Dhaka-1205 Phone:+88029676031-5
+            Fax: +8802967 5981 Email: info@easternuni.edu.bd, registrar@easternuni.edu.bd </p>
+        </div>
+        <div class="col-md-2">
+          <h5>About EU</h5>
+          <p id="footer-text" class="text-left">
+            <a href="">EU Profile</a><br>
+            <a href="">Board Of Trustees</a><br>
+            <a href="">Message From the Chairman</a><br>
+            <a href="">Message From the Vice-Chancellor</a><br>
+            <a href="">Campus Map</a><br>
+            <a href="">Contact Us</a><br>
+          </p>
+        </div>
+
+        <div class="col-md-2">
+          <h5>Admission</h5>
+          <p id="footer-text" class="text-left">
+            <a href="">Overview</a><br>
+            <a href="">Why Study at EU</a><br>
+            <a href="">Undergraduate Admission</a><br>
+            <a href="">Graduate Admission</a><br>
+            <a href="">Tuition and Fees</a><br>
+            <a href="">Financial Aid & Scholarship</a><br>
+          </p>
+        </div>
+
+        <div class="col-md-2">
+          <h5>Academics </h5>
+          <p id="footer-text" class="text-left">
+            <a href="">Academic Rules & Procedures</a><br>
+            <a href="">Registration Procedures</a><br>
+            <a href="">Rules of Class Attendance</a><br>
+            <a href="">Tests and Exams</a><br>
+            <a href="">Academic Standing of a Student</a><br>
+            <a href="">Degree Requirements</a><br>
+            <a href="">Undergraduate Programs</a><br>
+            <a href="">Graduate Programs</a><br>
+          </p>
+        </div>
+
+        <div class="col-md-2">
+          <h5>Programs Faculties </h5>
+          <p id="footer-text" class="text-left">
+            <a href="">Faculty of Arts </a><br>
+            <a href="">Faculty of Business Administration</a><br>
+            <a href="">Faculty of Engineering</a><br>
+            <a href="">Faculty of Law</a><br>
+          </p>
+        </div>
+
+        <div class="col-md-2">
+          <h5>International Links </h5>
+          <p id="footer-text" class="text-left">
+            <a href="">International Academic Linkages</a><br>
+            <a href="">International Advisors</a><br>
+          </p>
+        </div>
+
+      </div>
+    </div>
+    <p class="text-center">Copyright &copy;
+      <span id="year"></span> EU CSE 143400005 sdpto</p>
+  </footer>
+
+  <!--video modal-->
+  <div class="modal fade" id="videoModal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+          <iframe src="" frameborder="0" height="350" width="100%" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Login Modal-->
+  <div class="modal fade" id="loginModal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title">Login</h5>
+          <button class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="ID">ID</label>
+              <input type="text" class="form-control" placeholder="Enter ID Here">
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" class="form-control" placeholder="Enter Password Here">
+            </div>
+            <div class="form-group">
+              <label for="category">Category</label>
+              <select name="" id="" class="form-control">
+                <option value="">Student</option>
+                <option value="">Faculty</option>
+                <option value="">Staff</option>
+              </select>
+
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary" data-dismiss="modal">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Script Links-->
+
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+
+  <!--Script codes-->
+
+  <script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+
+    // Configure slider
+    $('.carousel').carousel({
+      interval: 6000,
+      pause: 'hover'
+    });
+
+    //Lightbox
+    $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
+    });
+
+    // Video Play
+    $(function () {
+      // Auto play modal video
+      $(".video").click(function () {
+        var theModal = $(this).data("target"),
+          videoSRC = $(this).attr("data-video"),
+          videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+        $(theModal + ' iframe').attr('src', videoSRCauto);
+        $(theModal + ' button.close').click(function () {
+          $(theModal + ' iframe').attr('src', videoSRC);
+        });
+      });
+    });
+
+    // Init Scrollspy
+    $('body').scrollspy({ target: '#gotoPart' });
+
+    // Smooth Scrolling
+    $("#gotoPart a").on('click', function (event) {
+      if (this.hash !== "") {
+        event.preventDefault();
+
+        const hash = this.hash;
+
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function () {
+
+          window.location.hash = hash;
+        });
+      }
+    });
+
+    //Notice Board slider
+    $('.slider').slick({
+      infinite: true,
+      slideToShow: 1,
+      slideToScroll: 1
+    });
+
+    //PopoverScript
+    //Init
+    $('[data-toggle="popover"]').popover();
+
+  </script>
+</body>
+
+</html>
